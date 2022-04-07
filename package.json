@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-tutorial",
+  "version": "1.0.0",
+  "description": "Node JS tutorial",
+  "main": "first-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node first-app.js",
+    "start-server": "node app.js"
+  },
+  "keywords": [
+    "It's",
+    "all",
+    "for",
+    "practice/learning."
+  ],
+  "author": "Matt E",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
